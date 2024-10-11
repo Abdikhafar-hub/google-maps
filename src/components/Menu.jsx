@@ -5,7 +5,7 @@ import { RiLayoutLeftLine } from "react-icons/ri";
 import { FaRegBookmark } from "react-icons/fa";
 import classNames from "classnames";
 import {
-	gateremaps,
+	maps,
 	contrbl,
 	location,
 	timeline,
@@ -129,8 +129,8 @@ const Menu = ({ openMenu, setOpenMenu }) => {
 					<a href="" className="cursor-pointer">
 						<img
 							className=" w-auto h-4 md:h-6"
-							src={gateremaps}
-							alt="gateremaps"
+							src={maps}
+							alt="akhafarmaps"
 						/>
 					</a>
 					<IoMdClose

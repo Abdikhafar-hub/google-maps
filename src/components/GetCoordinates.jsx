@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MdApps } from "react-icons/md";
-import gateremark from "../assets/gateremark.jpg";
+import me from "../assets/me.jpeg";
 
 const GetCoordinates = ({ onLocationSubmit }) => {
 	const [latitude, setLatitude] = useState("");
@@ -65,12 +65,12 @@ const GetCoordinates = ({ onLocationSubmit }) => {
 					className=" text-[#535353] text-3xl cursor-pointer"
 				/>
 				<a
-					href="https://github.com/gateremark"
+					href="https://github.com/Abdikhafar-hub"
 					target="_blank"
 					rel="noreferrer"
-					title="gateremark"
+					title="abdikhafarissack"
 				>
-					<img className="rounded-full w-8" src={gateremark} alt="" />
+					<img className="rounded-full w-8" src={me} alt="" />
 				</a>
 			</div>
 		</div>
